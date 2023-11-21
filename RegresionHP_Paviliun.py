@@ -6,7 +6,7 @@ from scipy.optimize import curve_fit
 tiempo = np.array([0, 5, 10, 15, 20, 25, 30])  # Tiempo en minutos
 temperatura = np.array([38, 51, 61, 73, 63, 63, 68])  # Temperatura en °C
 temperatura_ambiente = np.mean([24.4, 25.0, 24.5, 24.5, 24.5, 24.6, 24.7])  # Temperatura ambiente promedio
-titulo = 'Ajuste de la Ley de Enfriamiento de Newton computadora HP - Paviliun'
+titulo = 'Ajuste de la Ley de Enfriamiento de Newton computadora HP - Pavilion'
 
 
 # Función para el ajuste: Modelo de enfriamiento de Newton

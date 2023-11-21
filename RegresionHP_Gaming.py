@@ -8,7 +8,7 @@ tiempo_nuevo = np.array([0, 5, 10, 15, 20, 25, 30])  # Tiempo en minutos
 temperatura_nueva = np.array([49, 87, 90, 92, 86, 97, 66])  # Temperatura en °C
 temperatura_ambiente_nueva = np.mean([24.4, 25.0, 24.5, 24.5, 24.5, 24.6, 24.7])  # Temperatura ambiente promedio
 
-titulo_nuevo = 'Ajuste de la Ley de Enfriamiento de Newton computadora HP - Paviliun Gaming'
+titulo_nuevo = 'Ajuste de la Ley de Enfriamiento de Newton computadora HP - Pavilion Gaming'
 
 # Ajuste de curva con los nuevos datos
 parametros_optimizados_nuevo, _ = curve_fit(modelo_enfriamiento, tiempo_nuevo, temperatura_nueva, p0=[49, 0.01])
